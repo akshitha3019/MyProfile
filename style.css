@@ -1,0 +1,12 @@
+h1{
+    color: lightskyblue;
+    padding-left: 50%;
+}
+.Navbar{
+    background-color: #07dfdc;
+}
+.Navbar a{
+    color: white;
+    text-decoration:none;
+    padding-left: 100px;
+}
