@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservation - TasteHub</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+    <a class="active"></a>
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo">TasteHub</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="reservation.html" class="active">Reservation</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section bg-light">
+    <div class="container">
+      <h2>Reserve a Table</h2>
+      <br>
+      <form id="reservationForm" class="reservation-form">
+       <input type="text" name="name" placeholder="Your Name" required>
+       
+        <input type="email" name="email" placeholder="Your Email" required>
+        
+        <input type="tel" name="phone" placeholder="Phone Number" required>
+        
+        <input type="date" name="date" required>
+        
+        <input type="time" name="time" required>
+       
+        <input type="number" name="guests" placeholder="Guests" min="1" required>
+        <button type="submit" class="btn">Book Now</button>
+      </form>
+      <p id="formMessage" class="message"></p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 TasteHub Restaurant | Designed by Shree</p>
+  </footer>
+</body>
+</html>
